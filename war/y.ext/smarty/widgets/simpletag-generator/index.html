@@ -1,0 +1,3 @@
+{{foreach from=$metatags item=tag_config}}
+{{$tag_config.tag}}<{{if $tag_config.param}}{{foreach from=$tag_config.param key=pname item=pval}} {{$pname}}="{{$pval}}"{{/foreach}}/>{{/if}}
+{{/foreach}}

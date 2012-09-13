@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.5.0.rc1/extra/gwtquery-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.5.0.rc1/extra/gquery-dnd-bundle-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/gwt-2.3.0/gwt-dnd-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/gwt-2.3.0/gquery-dnd-bundle-1.0.4.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

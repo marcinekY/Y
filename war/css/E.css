@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+.testdraghtml {
+	border:1px solid green;
+}
+
+
+.Y-system-menuBarBox {
+	position: absolute;
+}
+
+.Y-system-contentPanel {
+	width: 100%;
+	z-index: 0;
+}
+
+.header {
+	width:100%;
+	height:100px;
+	background-color: #000000;
+}
+
+.Y-system-SectionsControlTree {
+	width: 15%;
+	float: left;
+	z-index: 10;
+}
+
+.Y-system-SectionsPalette {
+	width: 10%;
+	float: right;
+	z-index: 10;
+	
+}
+.Y-system-SectionsPanelView{
+	width: 75%;
+	left: 15%;
+	z-index: 11;
+}

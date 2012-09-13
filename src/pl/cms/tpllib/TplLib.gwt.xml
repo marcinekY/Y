@@ -1,0 +1,7 @@
+<module>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="pl.cms.css.CssManager"/>
+	<inherits name="com.google.gwt.resources.Resources" />
+	
+	<stylesheet src="TplLib.css"/>
+</module>

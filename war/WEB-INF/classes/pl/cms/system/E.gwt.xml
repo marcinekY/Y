@@ -1,0 +1,24 @@
+<module rename-to='client.engine'>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	
+	<!-- <inherits name="com.google.gwt.logging.Logging"/> -->
+	<inherits name="com.google.gwt.json.JSON" />
+	<inherits name="com.google.gwt.place.Place"/>
+	<inherits name="com.google.gwt.activity.Activity"/>
+
+	<inherits name="com.google.gwt.resources.Resources" />
+	<inherits name='com.allen_sauer.gwt.dnd.gwt-dnd'/>
+	<inherits name='gwtquery.plugins.draggable.Draggable'/>
+	<inherits name='gwtquery.plugins.droppable.Droppable'/> 
+	<inherits name="pl.cms.helpers.Helpers"/>
+	<inherits name="pl.cms.tpllib.TplLib"/>
+	<inherits name="pl.cms.css.CssManager"/>
+	
+	
+	<entry-point class="pl.cms.system.client.E"/>
+
+	<replace-with class="pl.cms.system.client.ClientFactoryImpl">
+		<when-type-is class="pl.cms.system.client.ClientFactory"/>
+	</replace-with>
+</module>
